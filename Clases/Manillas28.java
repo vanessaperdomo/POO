@@ -1,9 +1,16 @@
 public class Manillas28 {
-    private String material;
-    private String color;
-    private String estilo;
+    String color;
+    String material;
 
-    public void usarManilla(){
-        System.out.println("Usando la manilla de " + material + " de color " + color + " y estilo " + estilo + ".");
+    public void poner() {
+        System.out.println("Te pones la manilla de color " + color);
+    }
+
+    public void quitar() {
+        System.out.println("Te quitas la manilla de material " + material);
+    }
+
+    public void ajustar() {
+        System.out.println("Ajustas la manilla de color " + color);
     }
 }

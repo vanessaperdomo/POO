@@ -1,9 +1,13 @@
 public class Block29 {
-    private String material;
-    private String color;
-    private String estilo;
+    String tamaño;
+    String color;
+    int hojas;
 
-    public void usarBlock(){
-        System.out.println("El color de las hojas de este block es: " + color);
+    public void escribir() {
+        System.out.println("Escribes en el block de color " + color);
+    }
+
+    public void guardar() {
+        System.out.println("Guardas el block de tamaño " + tamaño + " con " + hojas + " hojas");
     }
 }

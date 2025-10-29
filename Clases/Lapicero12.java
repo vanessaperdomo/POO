@@ -1,13 +1,12 @@
 public class Lapicero12 {
-    private String color;
-    private String tipoPunta;
-    private String marca;
+    String color;
+    String marca;
 
-    public void escribir(){  
-        System.out.println("El lapicero esta escribiendo");
+    public void escribir() {
+        System.out.println("Escribir con el lapicero de marca " + marca + " y color " + color);
     }
 
-    public void dibujar(){  
-        System.out.println("El lapicero esta dibujando");
+    public void dibujar() {
+        System.out.println("Dibujar con el lapicero de marca " + marca + " y color " + color);
     }
 }

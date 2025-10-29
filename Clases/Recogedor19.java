@@ -1,9 +1,16 @@
 public class Recogedor19 {
-    private double precio;
-    private String color;
-    private String material;
+    String color;
+    String material;
 
-    public void recogerBasura(){  
-        System.out.println("Recoger basura en el recogedor");
+    public void recoger() {
+        System.out.println("Pasame el recogerdor de color " + color);
+    }
+
+    public void limpiar() {
+        System.out.println("Limpia todos los recogedores de material " + material);
+    }
+
+    public void guardar() {
+        System.out.println("Guardas el recogedor de color " + color);
     }
 }

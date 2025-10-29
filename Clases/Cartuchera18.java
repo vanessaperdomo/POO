@@ -1,14 +1,16 @@
 public class Cartuchera18 {
-    private String marca;
-    private String modelo;
-    private String color;
-    private boolean precio;
+    String color;
+    String material;
 
-    public void guardarUtiles(){  
-        System.out.println("Guardando utiles escolares en la cartuchera");
+    public void guardarLapices() {
+        System.out.println("Guarda los lapices en la cartuchera de " + color);
     }
 
-    public void sacarUtiles(){  
-        System.out.println("Sacando utiles escolares de la cartuchera");
+    public void abrir() {
+        System.out.println("Abre la cartuchera de material " + material);
+    }
+
+    public void cerrar() {
+        System.out.println("Cierra la cartuchera de color " + color);
     }
 }

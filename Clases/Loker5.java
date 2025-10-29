@@ -1,14 +1,17 @@
 public class Loker5 {
-    private String color;
-    private String material;
-    private String modelo;
-    private double altura;
+    String color;
+    String material;
+    String ubicacion;
 
-    public void guardarObjeto(){  
-        System.out.println("El objeto ha sido guardado en el locker");
+    public void abrir() {
+        System.out.println("Abres el loker de color " + color + " ubicado en " + ubicacion + ".");
     }
 
-    public void sacarObjeto(){  
-        System.out.println("El objeto ha sido sacado del locker");
+    public void guardarObjetos() {
+        System.out.println("Guardas tus pertenencias en el loker de " + material + ".");
+    }
+
+    public void cerrar() {
+        System.out.println("Cierras el loker con seguridad que esta a la " + ubicacion );
     }
 }

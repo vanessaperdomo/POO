@@ -1,9 +1,17 @@
 public class Reloj26 {
-    private String marca;
-    private String modelo;
-    private String color;
+    String marca;
+    String color;
+    String tipo;
 
-    public void mostrarHora(){
-        System.out.println("El reloj es de marca " + marca);
+    public void poner() {
+        System.out.println("Te pones el reloj de marca " + marca + " de color " + color + " y tipo " + tipo);
+    }
+
+    public void mirarHora() {
+        System.out.println("Miras la hora del reloj de marca " + marca + " de color " + color);
+    }
+
+    public void ajustar() {
+        System.out.println("Ajustas la hora del reloj de marca " + marca + " de color " + color);
     }
 }

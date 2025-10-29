@@ -1,14 +1,16 @@
 public class Impresora11 {
-    private String marca;
-    private String modelo;
-    private String tamaño;
-    private String color;
+    String marca;
+    String modelo;
 
-    public void imprimirDocumento(){  
-        System.out.println("El documento se esta imprimiendo");
+    public void imprimir() {
+        System.out.println("Imprimir los documentos en la impresora " + marca + " y " + modelo);
     }
 
-    public void escanearDocumento(){  
-        System.out.println("El documento se esta escaneando");
+    public void escanear() {
+        System.out.println("Escanear documento con la impresora " + marca + " y " + modelo);
+    }
+
+    public void copiar() {
+        System.out.println("Copiar documento con la impresora " + marca);
     }
 }

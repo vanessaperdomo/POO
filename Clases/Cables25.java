@@ -1,8 +1,16 @@
 public class Cables25 {
-    private String tipo;
-    private String caracteristicas;
+    String tipo;
+    String color;
 
-    public void usarCable(){
-        System.out.println("Estoy usando un cable de tipo " + tipo + " con características: " + caracteristicas);
+    public void conectar() {
+        System.out.println("Conectas el cable de tipo " + tipo);
+    }
+
+    public void desconectar() {
+        System.out.println("Desconectas el cable de tipo " + tipo + "  y de color " + color);
+    }
+
+    public void enrollar() {
+        System.out.println("Enrollas el cable de tipo " + tipo + "  y de color " + color);
     }
 }

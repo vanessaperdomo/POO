@@ -1,9 +1,17 @@
-public class Mouse24{
-    private String marca;
-    private String color;
-    private String tipo;
+public class Mouse24 {
+    String marca;
+    String color;
+    String tipo;
 
-    public void usarMouse(){  
-        System.out.println("Me gusta la marca" + marca + " de mi mouse");
+    public void conectar() {
+        System.out.println("Conecta el tipo de mouse: " + tipo + ", marca: " + marca + ", color: " + color + " a los computadores");
+    }
+
+    public void mover() {
+        System.out.println("Mueve los de color " + color + " a una caja");
+    }
+
+    public void click() {
+        System.out.println("Haces click con el mouse");
     }
 }

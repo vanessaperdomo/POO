@@ -1,22 +1,17 @@
 public class Televisor6 {
-    private String marca;
-    private String modelo;
-    private double pulgadas;
-    private String resolucion;
+    String marca;
+    String modelo;
+    int pulgadas;
 
-    public void encender(){  
-        System.out.println("El televisor se ha encendido");
+    public void encender() {
+        System.out.println("Encender todos los televisores de marca " + marca);
     }
 
-    public void apagar(){  
-        System.out.println("El televisor se ha apagado");
+    public void cambiarCanal() {
+        System.out.println("Cambiar el canal del televisor de marca " + marca + " y modelo " + modelo);
     }
 
-    public void cambiarCanal(){  
-        System.out.println("El canal ha sido cambiado");
-    }
-
-    public void visualizarContenido(){  
-        System.out.println("Visualizando contenido en el televisor");
+    public void apagar() {
+        System.out.println("Apagar todos los televisores de marca " + marca + " y modelo " + modelo );
     }
 }
